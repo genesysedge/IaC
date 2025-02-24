@@ -1,0 +1,15 @@
+#
+#
+# This is an example .tfvars file. The variables present align with those required by this configuration. You'll need to add your own Client ID, Client Secret, and AWS Region. 
+# You will also need to rename this file to remove the .example extension.
+#
+#
+
+oauthclient_id     = "XXXXXXXXXXXXX"
+oauthclient_secret = "XXXXXXXXXXXXX"
+aws_region         = "XXXXXXXXXXXXX"
+genesyscloud_flow_INBOUNDCALL_main_holiday_filepath = "flows/main_holiday_v1-0.yaml"
+genesyscloud_flow_INBOUNDCALL_main_logic_filepath = "flows/main_logic_v2-0.yaml"
+genesyscloud_flow_INBOUNDCALL_Main_IVR_filepath = "flows/main_ivr_v1-0.yaml"
+genesyscloud_flow_INBOUNDCALL_main_emergency_filepath = "flows/main_emergency_v1-0.yaml"
+genesyscloud_flow_INBOUNDCALL_main_closed_filepath = "flows/main_closed_v1-0.yaml"
